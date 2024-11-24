@@ -17,4 +17,4 @@ const forLoopFactorailMyAppraoch = (n) => {
   return result;
 };
 
-console.log(forLoopFactorailMyAppraoch(0))
+console.log(forLoopFactorailMyAppraoch(3))

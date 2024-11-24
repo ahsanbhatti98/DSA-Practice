@@ -9,7 +9,7 @@ const primeNumberMyApproach = (n) => {
 };
 
 // console.log(primeNumberMyApproach(103));
-console.log(primeNumberMyApproach(9));
+// console.log(primeNumberMyApproach(9));
 // console.log(primeNumberMyApproach(4));
 
 const isPrime = (n) => {
@@ -18,6 +18,7 @@ const isPrime = (n) => {
   }
 
   for (let i = 2; i < n; i++) {
+    console.log(i, "i=>>>n", n);
     if (n % i === 0) {
       return false;
     }
@@ -25,6 +26,6 @@ const isPrime = (n) => {
   return true;
 };
 
-console.log(isPrime(3));
 console.log(isPrime(5));
-console.log(isPrime(4));
+// console.log(isPrime(5));
+// console.log(isPrime(4));
